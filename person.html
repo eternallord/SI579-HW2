@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- ADDING JS AND CSS VIA EXTERNAL FILES -->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles_person.css">
+    <!-- if you remove the `defer` attribribute, it won't work, because this
+        JavaScript expects ` <div id="javascript-will-add-content">` but it loads
+        and executes before that element is available -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        Navigation
+        <ul>
+          <li><a href="./index.html">Home Page</a></li>
+          <li><a href="./person.html">Info</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        Detailed Info here
+    </section>
+
+  </body>
+</html>

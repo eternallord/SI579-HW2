@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- ADDING JS AND CSS VIA EXTERNAL FILES -->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- if you remove the `defer` attribribute, it won't work, because this
+        JavaScript expects ` <div id="javascript-will-add-content">` but it loads
+        and executes before that element is available -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2 class="nav">Navigation</h2>
+        <ul>
+          <li><a href="./index.html" class = "nav-list-hyper">Home Page</a></li>
+          <li><a href="./person.html" class = "nav-list-hyper">Info</a></li>
+          <li><a href="ps2-tests.html" class = "nav-list-hyper">Part 2 Tests</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2 class = "Introduction">Introduction</h2>
+      <article><span id = "color-sample">Purple</span> are used as hyperlinks! </article>
+    </section>
+    <section class="Attention">
+      <h2>Attention!</h2>
+      <img src = "attention.png" alt = "attention layer" class = 'attn'>
+    </section>
+    <footer>
+      citation: <a href="https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3" class = "nav-list-hyper">Attn: Illustrated Attention</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+/* body {
+    background: #FFC0CB;
+    color: #FFF;
+} */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #cef0f6;
+}
+h2{
+    font-family: 'Tangerine', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.nav{
+    text-align: center;
+}
+.nav-list-hyper{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+#color-sample{
+    display: inline-block;
+    color:blueviolet;
+    border-width: 0.1cm;
+    border-color: blueviolet;
+    border-style: dotted;
+}
+.Introduction{
+    text-align: center;
+}
+.Attention{
+    text-align: center;
+}
+.attn{
+    width: 1000px;
+}
